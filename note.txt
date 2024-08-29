@@ -2,8 +2,15 @@ backend:
 > init django project
 > new app accounts
 > install app + rest_framework, corsheaders (pip)
-> adding environs (pip install django-environs)
+> adding environ (pip install django-environ)
 > add cors middleware above common middleware (read doc for latest info)
 commit 'configs updated'
+> add custom user model to accounts (superuser > admin/staff)
+> add model for OTP to accounts
+> add user manager to managers.py to accounts, update AUTH_USER_MODEL
+> make and apply migrations
+ERROR: it's django-environ not environs. need to renew requirements.txt from scratch
+> pip install django-environ
+commit - custom user model
 
 frontend: npm create vite@latest . -- --template react
