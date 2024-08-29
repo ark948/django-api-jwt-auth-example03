@@ -21,5 +21,6 @@ commit - custom user model
 admin@example.com-Kay-Jo-admin123* 
 > serializers.py to accounts, user register serializer to serializers.py
 > need to write tests for custom user model
+> add user register view and urls.py file, link using path
 
 frontend: npm create vite@latest . -- --template react
