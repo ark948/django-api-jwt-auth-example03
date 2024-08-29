@@ -2,5 +2,8 @@ backend:
 > init django project
 > new app accounts
 > install app + rest_framework, corsheaders (pip)
+> adding environs (pip install django-environs)
+> add cors middleware above common middleware (read doc for latest info)
+commit 'configs updated'
 
 frontend: npm create vite@latest . -- --template react
