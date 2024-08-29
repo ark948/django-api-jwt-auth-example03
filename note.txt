@@ -1,0 +1,6 @@
+backend:
+> init django project
+> new app accounts
+> install app + rest_framework, corsheaders (pip)
+
+frontend: npm create vite@latest . -- --template react
