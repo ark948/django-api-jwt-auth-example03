@@ -1,3 +1,7 @@
+design:
+    backend: employees can access rendered html from api (using renderers)
+    end users can only access through frontend (react)
+
 backend:
 > init django project
 > new app accounts
@@ -12,5 +16,10 @@ commit 'configs updated'
 ERROR: it's django-environ not environs. need to renew requirements.txt from scratch
 > pip install django-environ
 commit - custom user model
+> update admin.py
+> create new superuser, login to admin panel using email:
+admin@example.com-Kay-Jo-admin123* 
+> serializers.py to accounts, user register serializer to serializers.py
+> need to write tests for custom user model
 
 frontend: npm create vite@latest . -- --template react
